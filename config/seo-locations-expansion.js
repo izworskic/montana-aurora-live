@@ -114,12 +114,12 @@ module.exports=Object.freeze([
   {
     "slug": "flathead-lake",
     "name": "Flathead Lake & Kalispell",
-    "region_id": "whitefish",
+    "region_id": "flathead-lake",
     "meta_description": "Northern lights near Flathead Lake or Kalispell tonight? Check Montana aurora activity, Flathead clouds, moonlight and dark northern lake horizons.",
-    "subhead": "Flathead Lake and Kalispell northern-lights planning from the nearby Whitefish regional engine.",
+    "subhead": "Check the nighttime cloud forecast for West Shore on Flathead Lake, south of Lakeside.",
     "short_card": "Flathead Lake: broad water and accessible lake country, but local valley cloud may differ from Whitefish.",
     "context": "Kalispell and Flathead Lake are iconic gateways to northwest Montana's lake and mountain country. The aurora can be easier to frame over an open water horizon than deep in forest, but surrounding peaks, shore orientation and lights from lakeside communities can hide a faint northern display.",
-    "decision_note": "Use the Whitefish–Flathead regional signal as a first filter, then judge whether a legally accessible shoreline faces north and whether lake-level clouds differ from the regional forecast. Not every lake beach opens in the same direction.",
+    "decision_note": "Start with the West Shore forecast, then look at your own stretch of shoreline. Around a lake this large, a bank of cloud can linger on one shore while another opens up. Not every lake beach opens in the same direction.",
     "viewing_intro": "North-facing public shoreline access is the key decision. Private docks, boat ramps and state park areas have different rules; verify a specific parking and nighttime access option.",
     "viewing_sites": [
       {
@@ -137,10 +137,11 @@ module.exports=Object.freeze([
     ],
     "field_notes": {
       "sky": "A north-facing water horizon is the asset; the far side of the lake and foothills can create obstacles. Confirm the actual direction at your chosen viewpoint.",
-      "decision": "This page uses the Whitefish regional weather sample; lake-shore cloud and fog can diverge from it. Treat the map as regional context, not a Flathead Lake sensor.",
+      "decision": "The NWS forecast is sampled at West Shore. Fog and cloud can differ around the lake and in Kalispell. Check the northern horizon where you plan to stand.",
       "access": "State parks, boat ramps and privately owned lakefront parcels do not all allow night parking. Verify local rules and avoid stopping on roads."
     },
     "sources": [
+      {"label":"Montana FWP West Shore forecast reference point and park information","url":"https://fwp.mt.gov/stateparks/west-shore"},
       {
         "label": "Visit Montana — Big Sky nighttime viewing",
         "url": "https://visitmt.com/things-to-do/montanas-night-sky"

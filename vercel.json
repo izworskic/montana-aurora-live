@@ -1,6 +1,6 @@
 {
   "trailingSlash": false,
-  "buildCommand": "npm test && npm run build && node scripts/inject-network-ads.mjs public",
+  "buildCommand": "npm test && npm run build && node scripts/measure-guide-visits.mjs && node scripts/inject-network-ads.mjs public",
   "outputDirectory": "public",
   "functions": {
     "api/aurora.js": {
@@ -27,6 +27,14 @@
     {
       "source": "/national-tools/aurora/montana/aurora-locations-sitemap.xml",
       "destination": "/aurora-locations-sitemap.xml"
+    },
+    {
+      "source": "/national-tools/aurora/montana/compare-skies.js",
+      "destination": "/compare-skies.js"
+    },
+    {
+      "source": "/national-tools/aurora/montana/forecast-regions.v1.json",
+      "destination": "/forecast-regions.v1.json"
     }
   ]
 }
